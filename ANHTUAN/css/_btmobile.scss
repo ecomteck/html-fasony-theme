@@ -1,0 +1,85 @@
+@media (max-width: 576px){
+	.navbar{
+		font-size:18px;
+	}
+	.something{
+		margin:30px 50px;
+	}
+	.collection .list-collect li{
+			margin:0px 1px;
+			padding:0;
+			a{
+				color:black;
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+	}
+	.boxes{
+		display: block;
+		width:60%;
+		margin:auto auto;
+	}
+	.load img{
+	  width: 300px;
+	  height:200px;
+	  position: absolute;
+	  top:23%;
+	  left: 21%;
+    }
+    .boxes .item3 h3{		
+		position: absolute;
+		top:35%;
+		right:30%;
+		font-size:20px;
+		
+	
+	}
+	.boxes .item4 h3{		
+		position: absolute;
+		top:35%;
+		right:25%;
+		font-size:20px;
+		
+	
+	}
+
+	
+
+}
+@media(max-width: 992px){
+	.boxes{
+		display: block;
+		width: 60%;
+	}
+
+	.carousel-caption{
+	position: absolute;
+    bottom:5px;
+    left:100px;
+    padding:0;
+    span{
+    	font-size:20px;
+    }
+	 button{	
+			font-size:8px;
+			font-weight: bold;
+			color:#fff;
+			border-color:#fff;
+    }
+    }
+    .collection .list-collect li{
+	list-style: none;
+	margin-right:3px;
+	}
+	.team-thumb .social-icon li {
+	
+	
+	padding:5px;
+	margin:2px;
+	a{
+	color:white;
+	font-size:17px;
+	}
+}
+
+}
